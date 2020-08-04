@@ -1,6 +1,6 @@
 {
-    "AsteriskIP" : "172.20.16.73",
+    "AsteriskIP" : "ASTERISK_IP",
     "AmiPort" : 5038,
-    "AmiUser" : "admin",
-    "AmiPassword" : "amp111"
+    "AmiUser" : "AMI_USER",
+    "AmiPassword" : "AMI_PASSWORD"
 }
