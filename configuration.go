@@ -10,10 +10,13 @@ import (
 
 //Configuration The object that stores the configuration variables
 type Configuration struct {
-	AsteriskIP  string
-	AmiPort     int
-	AmiUser     string
-	AmiPassword string
+	AsteriskIP   string
+	AmiPort      int
+	AmiUser      string
+	AmiPassword  string
+	Token        string
+	Port         string
+	PjSipEnabled bool
 }
 
 func getCurrentProgramLocation() string {

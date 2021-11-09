@@ -11,5 +11,5 @@ func main() {
 	//command("database show AMPUSER")
 	//Inicializo servidor web
 	router := NewRouter()
-	log.Fatal(http.ListenAndServe(":888", router))
+	log.Fatal(http.ListenAndServe(":"+configuration.Port, router))
 }

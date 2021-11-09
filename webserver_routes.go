@@ -24,4 +24,28 @@ var routes = Routes{
 		"/command/{command}",
 		Command,
 	},
+	Route{
+		"Call",
+		"GET",
+		"/queue/{action}",
+		QueueAction,
+	},
+	Route{
+		"Call",
+		"GET",
+		"/monitor/",
+		Monitor,
+	},
+	Route{
+		"Call",
+		"GET",
+		"/devices/",
+		Devices,
+	},
+	Route{
+		"Call",
+		"GET",
+		"/ws/",
+		wsEndpoint,
+	},
 }
